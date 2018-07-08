@@ -12,6 +12,18 @@
 /test/version_tmp/
 /tmp/
 
+# Amber Framework
+/lib/
+/.crystal/
+/.shards/
+/.vscode/
+.env
+.encryption_key
+production.yml
+.DS_Store
+/bin/
+/node_modules
+
 # Used by dotenv library to load environment variables.
 # .env
 
