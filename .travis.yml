@@ -1,1 +1,4 @@
 language: crystal
+env:
+  global:
+    - AMBER_ENV=test
