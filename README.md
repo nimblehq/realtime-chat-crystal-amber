@@ -1,12 +1,12 @@
-# Git Repository Template
+# Crystal on Amber 🔶
 
-Project repository template to set up all public projects at [Nimbl3](https://nimbl3.com)
+[Amber](https://amberframework.org/) is a web framework written in [Crystal](https://crystal-lang.org/), which is inspired by Rails and other frameworks.
 
 ## Usage
 
 Clone the repository
 
-`git clone git@github.com:nimbl3/git-template.git`
+`git clone git@github.com:nimbl3/realtime-chat-crystal-amber.git`
 
 ## License
 
