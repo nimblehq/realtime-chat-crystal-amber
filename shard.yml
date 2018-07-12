@@ -1,0 +1,47 @@
+name: realtime-chat-crystal-amber
+version: 0.1.0
+
+authors:
+  - Somsak Arnon <lahphim@gmail.com>
+
+crystal: 0.25.1
+
+license: UNLICENSED
+
+targets:
+  realtime-chat-crystal-amber:
+    main: src/realtime-chat-crystal-amber.cr
+
+  amber:
+    main: lib/amber/src/amber/cli.cr
+
+dependencies:
+  amber:
+    github: amberframework/amber
+    version: 0.8.0
+    #branch: master
+
+  granite:
+    github: amberframework/granite
+    version: ~> 0.12.1
+
+  quartz_mailer:
+    github: amberframework/quartz-mailer
+    version: ~> 0.5.1
+
+  jasper_helpers:
+    github: amberframework/jasper-helpers
+    version: ~> 0.2.0
+
+  pg:
+    github: will/crystal-pg
+    version: ~> 0.15.0
+
+  citrine-i18n:
+    github: amberframework/citrine-i18n
+    version: 0.3.2
+
+development_dependencies:
+ garnet_spec:
+   github: amberframework/garnet-spec
+   version: ~> 0.2.1

@@ -1,4 +1,4 @@
-https://github.com/nimble/git-template/issues/??
+https://github.com/nimble/realtime-chat-crystal-amber/issues/??
 
 ## What happened
 
