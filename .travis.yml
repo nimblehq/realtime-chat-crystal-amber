@@ -2,3 +2,5 @@ language: crystal
 env:
   global:
     - AMBER_ENV=test
+before_script:
+  - crystral db create
