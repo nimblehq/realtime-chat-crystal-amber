@@ -1,1 +1,6 @@
 language: crystal
+env:
+  global:
+    - AMBER_ENV=test
+before_script:
+  - psql -c 'create database realtime_chat_crystal_amber_test;' -U postgres
