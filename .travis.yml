@@ -3,4 +3,4 @@ env:
   global:
     - AMBER_ENV=test
 before_script:
-  - crystral db create
+  - psql -c 'create database realtime_chat_crystal_amber_development;' -U postgres
