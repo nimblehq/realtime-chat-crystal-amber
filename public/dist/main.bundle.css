@@ -1,8 +1,8 @@
-/*
+@import url(https://fonts.googleapis.com/css?family=Lato:300);/*
  * Globals
  */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #555; }
 
 h1, .h1,
@@ -12,7 +12,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   color: #333; }
 
@@ -27,9 +27,8 @@ h6, .h6 {
  * Masthead for nav
  */
 .masthead {
-  background-color: #f4994b;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1); }
+  display: none;
+  background-color: #f4994b; }
 
 /* Nav links */
 .nav-item {
@@ -91,5 +90,58 @@ h6, .h6 {
 .nav-item-auth.nav-item-auth-profile, .nav-item-auth.nav-item-auth-signin {
   order: 9990;
   margin-left: auto; }
+
+.no-padding {
+  padding: 0; }
+
+.text-link {
+  color: white; }
+  .text-link:hover, .text-link:active {
+    color: white; }
+
+.chat-box {
+  height: calc(100vh - 3rem);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png");
+  border: 1px solid #eaeaea; }
+  .chat-box__actions {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem; }
+    .chat-box__actions form {
+      margin-bottom: 0; }
+
+.user-profile {
+  background-color: #69B7F0;
+  text-align: center;
+  padding: 1rem;
+  border-top-right-radius: 1rem; }
+  .user-profile__avatar img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 5rem; }
+  .user-profile__actions {
+    text-align: right; }
+    .user-profile__actions a {
+      color: white; }
+  .user-profile__email {
+    color: white; }
+
+.message-item {
+  margin: 1rem; }
+  .message-item img {
+    border-radius: 50%; }
+  .message-item__message {
+    background-color: white;
+    border: 1px solid #eaeaea;
+    padding: 0.5rem;
+    border-radius: 0.5rem; }
+  .message-item--me .message-item__message {
+    background-color: #69B7F0;
+    border: 1px solid #69B7F0;
+    color: white; }
 
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLmJ1bmRsZS5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/
