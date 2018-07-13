@@ -1,9 +1,19 @@
 .row
-  #logo
-  .col-sm-12.col-md-6
-    h2 = t "welcome_to_amber"
-    p Thank you for trying out the Amber Framework.  We are working hard to provide a super fast and reliable framework that provides all the productivity tools you are used to without sacrificing the speed.
-    .list-group
-      a.list-group-item.list-group-item-action target="_blank" href="https://docs.amberframework.org" Getting Started with Amber Framework
-      a.list-group-item.list-group-item-action target="_blank" href="https://github.com/veelenga/awesome-crystal" List of Awesome Crystal projects and shards
-      a.list-group-item.list-group-item-action target="_blank" href="https://crystalshards.xyz" What's hot in Crystal right now
+  .col-12
+    - if (current_user = context.current_user)
+      .row
+        .col-8.no-padding
+          .chat-box
+            .chat-box__actions id="messages"
+              == form(class: "form-group", id: "message-form") do
+                == text_field(name: "message", id: "message", class: "form-control", placeholder: "Write Message ...", autofocus: "", required: "")
+              - :end
+            .chat-box__messages
+        .col-4.no-padding
+          == render(partial: "_user-profile.slang")
+    - else
+      p
+        == link_to("Already have an account?", "/signin")
+      p
+        == link_to("Don't have an account yet?", "/signup")
+    

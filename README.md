@@ -1,6 +1,9 @@
-# Crystal on Amber 🔶
+# Nimbl3 : Crystal on Amber 🔶
 
 [Amber](https://amberframework.org/) is a web framework written in [Crystal](https://crystal-lang.org/), which is inspired by Rails and other frameworks.
+
+[![Build Status](https://travis-ci.com/nimbl3/realtime-chat-crystal-amber.svg?branch=development)](https://travis-ci.com/nimbl3/realtime-chat-crystal-amber)
+[![Amber Framework](https://img.shields.io/badge/using-amber_framework-orange.svg)](https://amberframework.org/)
 
 ## Usage
 

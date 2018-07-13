@@ -1,6 +1,8 @@
 require "./initializers/**"
 
 require "amber"
+require "../src/sockets/**"
+require "../src/channels/**"
 require "../src/models/**"
 require "../src/pipes/**"
 

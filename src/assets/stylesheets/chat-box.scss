@@ -1,0 +1,18 @@
+.chat-box {
+    height: calc(100vh - 3rem);;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png");
+    border: 1px solid #eaeaea;
+
+    &__actions {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+
+        form {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+$background-color: #69B7F0;
+
+.user-profile {
+    background-color: $background-color;
+    text-align: center;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+
+    &__avatar {
+        img {
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+
+    &__actions {
+        text-align: right;
+
+        a {
+            color: white;
+        }
+    }
+
+    &__email {
+        color: white;
+        
+    }
+}

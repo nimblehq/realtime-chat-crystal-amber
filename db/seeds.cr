@@ -1,6 +1,6 @@
 require "../config/application.cr"
 
 user = User.new
-user.email = "admin@example.com"
-user.password = "password"
+user.email = "admin@nimbl3.com"
+user.password = "Antikera1234"
 user.save

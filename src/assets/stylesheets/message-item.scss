@@ -1,0 +1,22 @@
+.message-item {
+    margin: 1rem;
+
+    img {
+        border-radius: 50%;
+    }
+
+    &__message {
+        background-color: white;
+        border: 1px solid #eaeaea;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    &--me {
+        .message-item__message {
+            background-color: #69B7F0;
+            border: 1px solid #69B7F0;
+            color: white;
+        }
+    }
+}
